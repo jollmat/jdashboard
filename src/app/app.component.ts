@@ -17,7 +17,6 @@ export class AppComponent {
     {name: 'Proddle', description: 'Base de dades co.laborativa de productes alimentaris', url: 'https://jollmat.github.io/proddle/'},
     {name: 'Meteogit', description: 'Tracker personalitzat de meteorologia a ubicacions mundials', url: 'https://jollmat.github.io/meteogit/'},
     {name: 'Hondt', description: 'Simulador de pactes en eleccions municipals', url: 'https://jollmat.github.io/hondt/'},
-    {name: 'Timeline', description: 'Gestor de timeline personal', url: 'https://jollmat.github.io/timeline/'},
     {name: 'Cinematix', description: 'Cercador dedicat al cinema (pel.lícules, sèries, actors...)', url: 'https://jollmat.github.io/cinematix/'},
   ];
 }
