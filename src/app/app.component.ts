@@ -18,6 +18,7 @@ export class AppComponent {
     {name: 'Meteogit', description: 'Tracker personalitzat de meteorologia a ubicacions mundials', url: 'https://jollmat.github.io/meteogit/'},
     {name: 'Hondt', description: 'Simulador de pactes en eleccions municipals', url: 'https://jollmat.github.io/hondt/'},
     {name: 'Cinematix', description: 'Cercador dedicat al cinema (pel.lícules, sèries, actors...)', url: 'https://jollmat.github.io/cinematix/'},
+    {name: 'NewsTracker', description: 'Cercador de notícies de diferentes fonts)', url: 'https://jollmat.github.io/jnewstracker/'}
   ].sort((a,b) => {
     return a.name>b.name?1:-1;
   });
