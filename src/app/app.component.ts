@@ -12,14 +12,16 @@ export class AppComponent {
     {name: 'FootballTV', description: 'Scheduler setmanal de futbol a les TV', url: 'https://jollmat.github.io/footballtv/'},
     {name: 'BasketTV', description: 'Scheduler setmanal de bàsket a les TV', url: 'https://jollmat.github.io/baskettv/'},
     {name: 'BMoviments', description: 'Analitzador de moviments bancaris (llistat i gràfics)', url: 'https://jollmat.github.io/bmoviments/'},
-    {name: 'TVPlayer', description: 'Cercador i visualitzador de TVs online de tot el mòn', url: 'https://jollmat.github.io/tvplayer/'},
+    {name: 'TDT Channels', description: 'Cercador i visualitzador de TVs online de tot el mòn', url: 'https://jollmat.github.io/tdt/'},
+    {name: 'Gamepolis', description: 'Cercador de jocs', url: 'https://jollmat.github.io/gamepolis/'},
     {name: 'Timeline', description: 'Gestor de timeline personal', url: 'https://jollmat.github.io/timeline/'},
     {name: 'Proddle', description: 'Base de dades co.laborativa de productes alimentaris', url: 'https://jollmat.github.io/proddle/'},
     {name: 'Meteogit', description: 'Tracker personalitzat de meteorologia a ubicacions mundials', url: 'https://jollmat.github.io/meteogit/'},
     {name: 'Hondt', description: 'Simulador de pactes en eleccions municipals', url: 'https://jollmat.github.io/hondt/'},
     {name: 'Cinematix', description: 'Cercador dedicat al cinema (pel.lícules, sèries, actors...)', url: 'https://jollmat.github.io/cinematix/'},
-    {name: 'NewsTracker', description: 'Cercador de notícies de diferentes fonts)', url: 'https://jollmat.github.io/jnewstracker/'},
-    {name: 'HomeInsights', description: 'Registre de vivendes per a comprar)', url: 'https://jollmat.github.io/homeinsights/'}
+    {name: 'NewsTracker', description: 'Cercador de notícies de diferentes fonts', url: 'https://jollmat.github.io/jnewstracker/'},
+    {name: 'HomeInsights', description: 'Registre de vivendes per a comprar', url: 'https://jollmat.github.io/homeinsights/'},
+    {name: 'Languify', description: 'Eines de traducció i dicció en diferents idiomes', url: 'https://jollmat.github.io/languify/'}
   ].sort((a,b) => {
     return a.name>b.name?1:-1;
   });
