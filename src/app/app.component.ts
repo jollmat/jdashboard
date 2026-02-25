@@ -21,6 +21,7 @@ export class AppComponent {
     {name: 'Cinematix', description: 'Cercador dedicat al cinema (pel.lícules, sèries, actors...)', url: 'https://jollmat.github.io/cinematix/'},
     {name: 'NewsTracker', description: 'Cercador de notícies de diferentes fonts', url: 'https://jollmat.github.io/jnewstracker/'},
     {name: 'HomeInsights', description: 'Registre de vivendes per a comprar', url: 'https://jollmat.github.io/homeinsights/'},
+    {name: 'FoodInsights', description: 'Informació sobre aliments', url: 'https://jollmat.github.io/food-insights/'},
     {name: 'Languify', description: 'Eines de traducció i dicció en diferents idiomes', url: 'https://jollmat.github.io/languify/'}
   ].sort((a,b) => {
     return a.name>b.name?1:-1;
